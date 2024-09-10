@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Galería AV</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+</head>
+
+<body>
+
+  <section>
+    <h1 class="text-center animate__animated animate__backInDown">Galería <span style="color: orange;">AV</span></h1>
+    <hr />
+    <div class="row">
+      <div class="col-md-4 animate__animated animate__backInDown">
+        <h4 class="animate__animated animate__backInLeft">Imagenes</h4>
+        <hr />
+        <form id="formulario">
+          <div class="form-group">
+            <input id="inp-file" type="file" class="form-control" accept=".png, .jpg, .svg"/>
+          </div>
+          <button type="submit" class="btn btn-primary mt-1">Subir...</button>
+        </form>
+      </div>
+      <div class="col-md-8 animate__animated animate__backInDown">
+        <h4 class="animate__animated animate__backInLeft">Resultados</h4>
+        <hr />
+        <div id="resultContainer">
+          <div class="alert alert-info" id="noResultAlert">No hay imagenes</div>
+          <div id="cont-img">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="cont-modal">
+      <span id="closeModal">&times;</span>
+      <img class="img-modal" id="modal-img">
+    </div>
+  </section>
+
+  <footer>
+    <div class="cont-foot animate__animated animate__flipInX">
+      <h3>Albert Daniel Valdemora Suarez</h3>
+    </div>
+  </footer>
+
+
+  <script src="./js/App.js" type="module"></script>
+  <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+</body>
+
+</html>
