@@ -19,12 +19,7 @@ Este es un proyecto simple de una galería de imágenes que permite a los usuari
 - **Animate.css**: Para añadir animaciones a los elementos.
 - **SweetAlert**: Para mostrar alertas atractivas y personalizadas al usuario.
 
-## Estructura del proyecto
 
-/Galeria-AV │ ├── index.html - Página principal de la galería ├── style.css - Archivo de estilos personalizados ├── /js - Carpeta de archivos JavaScript │ ├── App.js - Controlador principal para cargar y enviar imágenes │ ├── Get_Imagen.js - Funcionalidades para cargar imágenes desde el localStorage │ ├── Post_Imagen.js - Funcionalidad para subir nuevas imágenes al localStorage │ └── Delete_Imagen.js - Funcionalidad para eliminar imágenes del localStorage └── /img - Carpeta opcional para imágenes estáticas
-
-bash
-Copiar código
 
 ## Instalación y uso
 
